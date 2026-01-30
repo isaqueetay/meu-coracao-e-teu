@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<meta charset="UTF-8">
+<title>Meu coração é teu, meu amor</title>
+
+<style>
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: linear-gradient(180deg, #2b0a3d, #4b1366);
+  color: white;
+  text-align: center;
+  overflow-x: hidden;
+}
+
+h1 {
+  color: #e0aaff;
+  margin-top: 40px;
+}
+
+h2 {
+  color: #c77dff;
+}
+
+.rosa {
+  width: 120px;
+  margin: 20px auto;
+}
+
+.cartinha {
+  background: rgba(255,255,255,0.12);
+  margin: 40px auto;
+  padding: 25px;
+  width: 90%;
+  max-width: 750px;
+  border-radius: 20px;
+  cursor: pointer;
+  box-shadow: 0 0 20px rgba(199,125,255,0.4);
+}
+
+.cartinha p {
+  display: none;
+  text-align: left;
+  margin-top: 20px;
+  line-height: 1.7;
+}
+
+.foto {
+  margin: 50px auto;
+  width: 90%;
+  max-width: 650px;
+}
+
+.foto img {
+  width: 100%;
+  border-radius: 20px;
+  box-shadow: 0 0 25px rgba(224,170,255,0.6);
+}
+
+.foto p {
+  margin-top: 18px;
+  line-height: 1.7;
+}
+
+iframe {
+  border-radius: 15px;
+  box-shadow: 0 0 15px rgba(199,125,255,0.6);
+}
+
+footer {
+  margin: 60px 20px;
+  color: #f1c6ff;
+  font-size: 18px;
+}
+
+/* CORAÇÕES */
+.coracao {
+  position: fixed;
+  bottom: -10px;
+  font-size: 20px;
+  animation: subir 8s linear infinite;
+  color: #ffb3ec;
+  opacity: 0.8;
+}
+
+@keyframes subir {
+  0% { transform: translateY(0); opacity: 1; }
+  100% { transform: translateY(-120vh); opacity: 0; }
+}
+</style>
+
+<script>
+function abrirCartinha() {
+  const texto = document.getElementById("textoCartinha");
+  texto.style.display = texto.style.display === "none" ? "block" : "none";
+}
+
+setInterval(() => {
+  const coracao = document.createElement("div");
+  coracao.className = "coracao";
+  coracao.innerHTML = "💜";
+  coracao.style.left = Math.random() * 100 + "vw";
+  coracao.style.fontSize = (15 + Math.random() * 20) + "px";
+  document.body.appendChild(coracao);
+
+  setTimeout(() => {
+    coracao.remove();
+  }, 8000);
+}, 600);
+</script>
+</head>
+
+<body>
+
+<h1>Meu coração é teu, meu amor 💜</h1>
+
+<img src="rosa.png" class="rosa">
+
+<div class="cartinha" onclick="abrirCartinha()">
+<h2>💌 Clique para abrir minha cartinha 💌</h2>
+<p id="textoCartinha">
+Minha Princesa eu fiz isso aqui pra vc como um presente de 2 meses juntos.
+Eu te falei q seria um videozinho mas fiz isso pra vc.<br><br>
+
+Meu amor nesses dois meses vc tem feito muito mais q pessoas em anos, meses,
+em menos d um mês vc fez bem mais coisas q qualquer pessoa nesse mundo.
+Nunca fui d contar nenhum problema meu pra alguém, coisas q me deixam triste
+ou algo assim, e com vc eu consigo falar d tudo isso.<br><br>
+
+Tem vezes q eu acho q to falando coisas d mais, mandando muito vídeo, msg,
+e eu fico meio pá, mas eu me controlo e deixo pra outro dia.
+Eu salvei muitos vídeos q na hora eu queria mandar pra vc,
+e ainda quero tá, mas preferi guardar pra te mandar depois,
+tem muitossss, muitos mesmo.<br><br>
+
+Quando vc fala q não é pra eu comentar em alguma foto sua
+por causa da sua prima, pq se não ela conta pra sua mãe,
+temos nosso código do ponto (.)
+como aviso pra eu te chamar de bb, moh, mor, amor, princesa, docinho…
+Eu não canso de falar que vc coloriu minha vida,
+me deu forças d onde eu não tinha,
+me mostrou q sendo eu mesmo eu posso ser tudo aquilo q vc precisa.<br><br>
+
+Quando eu achei q não teria mais jeito, vc apareceu mudando tudo em mim.
+Por isso e por diversos motivos eu te amo muito,
+muito, muito, muito ❤️
+</p>
+</div>
+
+<div class="foto">
+<img src="foto1.jpeg">
+<p>
+Essa é uma das fotos q eu mais amo por causa dos seus olhinhos, mor.
+Esses olhinhos q me atraem e me fazem ficar horas olhando cada foto sua.
+Quando te pedi essa foto foi de noite e no outro dia vc me mandou essa
+e realizou um dos meus sonhos 🥰❤️
+</p>
+</div>
+
+<div class="foto">
+<img src="foto2.jpeg">
+<p>
+Essa é uma das muitas fotos e vídeos q eu paro pra pensar
+como eu consegui essa mulher linda, maravilhosa, perfeita,
+o amor da minha vida.
+Eu vou fazer de tudo pra te fazer feliz.
+EU TE AMO ❤️
+</p>
+</div>
+
+<div class="foto">
+<img src="foto3.jpeg">
+<p>
+Essas cartinhas q vc fez pra mim, os desenhos, os te amo…
+eu chorei tanto quando li tudo com calma.
+Nunca pensei q ganharia algo assim.
+Sempre pensei q quando ganhasse, seria pra casar.
+E essa mulher é vc ❤️
+</p>
+</div>
+
+<div class="foto">
+<img src="foto4.jpeg">
+<p>
+Essa caixinha eu planejei antes do natal.
+As rosas estão com meu perfume
+e isso é só o começo.
+Vai ter muito mais.
+EU TE AMO MUITO ❤️
+</p>
+</div>
+
+<h2>🎶 Nossas músicas 🎶</h2>
+
+<div style="display:flex; flex-direction:column; gap:25px; align-items:center;">
+<iframe width="300" height="170" src="https://www.youtube.com/embed/t1hfqfdmcD8"></iframe>
+<iframe width="300" height="170" src="https://www.youtube.com/embed/kbCtpDwVCLQ"></iframe>
+<iframe width="300" height="170" src="https://www.youtube.com/embed/_v0-5QY6y-M"></iframe>
+<iframe width="300" height="170" src="https://www.youtube.com/embed/DP69ZMFl0W8"></iframe>
+</div>
+
+<footer>
+Com muito amor, feito por Isaque 💜<br>
+Feliz dois meses com você, meu amor ❤️
+</footer>
+
+</body>
+</html>
